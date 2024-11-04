@@ -1,0 +1,67 @@
+{
+  "umaru": [
+    {
+      "id": "1",
+      "imagen": "./images/umaru.jpg",
+      "nombre": "Umaru Doma",
+      "tipo": "Protagonista",
+      "descripcion": "Es la protagonista de la historia, en la escuela es una chica perfecta, amable, hermosa y muy inteligente. Sin embargo, en su casa cambia por completo a ser una holgazana otaku muy fastidiosa, principalmente con su hermano mayor Taihei, al que siempre llama hermanito (お兄ちゃん|Onii-Chan). Cuando cambia a esta personalidad, su apariencia se vuelve Chibi, usando por lo general un tapado con capucha con diseño de hámster, junto con sus shorts lycra rojos y blusa blanca. Por su fanatismo por los videojuegos, suele competir en Arcades bajo la apariencia de 'UMR' (pronunciado en inglés), de boina y antifaz"
+    },
+    {
+      "id": "2",
+      "imagen": "./images/taihei.jpg",
+      "nombre": "Taihei Doma",
+      "tipo": "Protagonista",
+      "descripcion": "Es el hermano mayor de Umaru, es más responsable que su hermana, además de poseer un trabajo en administración, donde trabaja con dos amigos de la infancia. Siente pánico al momento de conducir un auto real debido a que no es igual a los exámenes de manejo, en los cuales sacó la mejor calificación. Es extremadamente amable, a tal punto de invitar a todo el mundo a su casa."
+    },
+    {
+      "id": "3",
+      "imagen": "./images/ebina.jpg",
+      "nombre": "Nana Ebina",
+      "tipo": "Amiga de Umaru",
+      "descripcion": "La mejor amiga de Umaru y residente en los mismos departamentos que en donde vive Umaru y su hermano. Es bastante tímida y fácilmente se sonroja o se pone nerviosa. Es proveniente de Akita y de vez en cuando se le escapa su tonada de origen, de un estilo más campesino. Está enamorada de Taihei debido a que tras su viaje de Akita a Tokio fue la primera persona en mirarla a los ojos (ya que gran parte de la gente miraba directamente a sus grandes pechos) y tratarla amablemente, a tal punto de casi no poder hablar delante de él. Le fascina comer en exceso (sobre todo postres), lo que causa a veces que se avergüence y hable con su tonada campesina."
+    },
+    {
+      "id": "4",
+      "imagen": "./images/tachibana.jpg",
+      "nombre": "Sylphynford Tachibana",
+      "tipo": "Amiga de Umaru",
+      "descripcion": "Una chica linda y adinerada que ha demostrado ser muy inteligente. Tiene una personalidad muy alegre y competitiva. Ella misma se ha declarado rival de Umaru, por lo cual siempre compite contra ella en casi todo, y le gusta llamar la atención, principalmente cuando Umaru está presente. Le gustan los videojuegos y el anime al igual que a su hermano mayor, sin embargo ella los evita cuando su hermano está cerca debido a que siente vergüenza y cree que su hermano la vería con malos ojos. Desconoce que su idola 'UMR' es en realidad Umaru en su faceta gamer. De vez en cuando suele hacer poses de idol con una voz de fondo que grita 'Shbaaaa!!'"
+    },
+    {
+      "id": "5",
+      "imagen": "./images/kirie.jpg",
+      "nombre": "Kirie Motoba",
+      "tipo": "Amiga de Umaru",
+      "descripcion": "Una chica con un aura oscura y que ha provocado miedo a más de una persona con su mirada, aunque en el fondo es una chica tímida y con dificultades para socializar (Tsundere). Ama en secreto a Umaru a pesar de no tener mucho valor para hablar con ella. Tras casi descubrir el secreto de Umaru, ella confunde su apariencia 'chibi' como la hermana menor de Umaru, la cual pasa a llamar Komaru, y le pide que sea su maestra.También no le cae muy bien Ebina ya que quiere a Umaru para ella."
+    },
+    {
+      "id": "6",
+      "imagen": "./images/hikari.jpg",
+      "nombre": "Hikari Kongou",
+      "tipo": "Amiga de Umaru",
+      "descripcion": "Una estudiante superior del Programa de Jóvenes Dotados en la escuela preparatoria de Umaru. Ella usa un pin del logotipo de la compañía de diamantes donde trabaja Taihei, y luego se revela que es la hermana pequeña de Kanau. Se insinúa que ella ha interactuado con Taihei antes, ya que conoce el conjunto de constelaciones que intentó mostrar a Umaru. Ella se refiere a Taihei como un hermano mayor, compitiendo con la mismísima Umaru, siendo la única que conoce todas sus facetas."
+    },
+    {
+      "id": "7",
+      "imagen": "./images/takeshi.jpg",
+      "nombre": "Takeshi Motoba",
+      "tipo": "Amigo de Taihei",
+      "descripcion": "Es el hermano mayor de Kirie y compañero de trabajo y de escuela de Taihei. Su característica principal es la de tener un peinado afro muy distinguido, además de ser a veces muy quejumbroso pero es muy alegre a la vez. Su apodo es Bomber y es amigo de la infancia de Taihei. Sufre seguido los ataques violentos de Kirie, pero con menos frecuencia desde que ella es amiga de Umaru"
+    },
+    {
+      "id": "8",
+      "imagen": "./images/alex.jpg",
+      "nombre": "Alex Tachibana",
+      "tipo": "Amigo de Taihei",
+      "descripcion": "Es el hermano mayor de Sylphynford y kohai de Taihei. Mantiene una actitud más tranquila y callada, además de ser un otaku al igual que su hermana. Suele hacer poses parecidas a las que hace Sylphyn."
+    },
+    {
+      "id": "9",
+      "imagen": "./images/kanau.jpg",
+      "nombre": "Kanau Kongou",
+      "tipo": "Amigo de Taihei",
+      "descripcion": "Es la jefa de trabajo de Taihei, Takeshi y Alex a su vez que fue compañera de escuela de los dos primeros mencionados. No soporta por mucho tiempo a Takeshi, pero ha demostrado estar enamorada de Tahei desde la escuela hasta la actualidad en su trabajo, insinuándosele a cada rato."
+    }
+  ]
+}

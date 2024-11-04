@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/registrar-personaje.css">
+    <script src="https://kit.fontawesome.com/cd30d5437a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="wave">
+            <img src="../images/wave.png" alt="Wave">
+        </div>
+        <div class="wave2">
+            <img src="../images/wave2.png" alt="Wave">
+        </div>
+        <div class="image-h1">
+            <figure>
+                <img src="../images/umaru1.png" alt="Umaru">
+            </figure>
+            <h1>Umaru</h1>
+        </div>
+        <nav>
+            <a href="../index.html" aria-label="Volver a home">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <a href="./pages/registrar-personaje.html" aria-label="Registrar personaje">
+                <i class="fa-solid fa-plus"></i>
+            </a>
+        </nav>
+    </header>
+    <main class="container">
+        <form class="container__formulario" data-formulario>
+            <h2>Registrar Personaje</h2>
+            <div>
+                <label class="campo__etiqueta" for="imagem">Imagen</label>
+                <input required value="https://i.postimg.cc/6qnTQVmL/cf48c7459b32ed8f9d6b8d78c6b42738.jpg" data-imagen/>
+            </div>
+            <div>
+                <label class="campo__etiqueta" for="titulo">Nombre</label>
+                <input required placeholder="Nombre..."
+                    id='titulo' data-nombre/>
+            </div>
+            <div>
+                <label class="campo__etiqueta" for="titulo">Tipo</label>
+                <select name="" id="" data-tipo>
+                    <option value="Amiga de Umaru">Amiga de Umaru</option>
+                    <option value="Amigo de Taihei">Amigo de Taihei</option>
+                </select>
+            </div>
+            <div>
+                <label class="campo__etiqueta" for="titulo">Descripcion</label>
+                <input required placeholder="Descripcion..."
+                    id='titulo' data-descripcion/>
+            </div>
+            <button class="formulario__boton" type="submit">REGISTRAR</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; Marina Arrieta</p>
+        <a href="https://www.linkedin.com/in/marina-arrieta/">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </footer>
+
+    <script src="../js/registrarPersonaje.js" type="module"></script>
+</body>
+</html>
