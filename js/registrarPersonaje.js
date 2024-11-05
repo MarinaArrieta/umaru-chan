@@ -2,7 +2,7 @@ import { conexionAPI } from "./conexionAPI.js";
 
 const formulario = document.querySelector("[data-formulario]");
 
-async function crearCharacters(evento){
+async function crearCharacters(evento) {
     evento.preventDefault();
     const nombre = document.querySelector("[data-nombre]").value;
     const tipo = document.querySelector("[data-tipo]").value;
@@ -11,13 +11,14 @@ async function crearCharacters(evento){
 
     try {
         await conexionAPI.crearCharacters(nombre, tipo, descripcion, imagen);
-
-        window.location.href="../pages/envio-concluido.html"
-    }
-    catch(e){
+        console.log(nombre);
+        // Redirige a la página de confirmación después de enviar el formulario
+        window.location.href = "../pages/envio-concluido.html";
+    } catch (e) {
         alert(e);
     }
 }
 
-formulario.addEventListener("submit",evento => {
-    crearCharacters(evento)});
+formulario.addEventListener("submit", (evento) => {
+    crearCharacters(evento);
+});
